@@ -3,7 +3,6 @@
  */
 import {AppNavigator} from './../routers';
 
-import * as types from './../actions/types';
 
 // const initialState = AppNavigator.router.getStateForAction(AppNavigator.router.getActionForPathAndParams('Login'));
 

@@ -1,7 +1,7 @@
 /**
  * Created by uxin on 2017/8/26.
  */
-import * as types from './../actions/types';
+import * as types from './../constant/types';
 
 const initialState = {
     value:1,

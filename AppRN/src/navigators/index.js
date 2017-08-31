@@ -1,7 +1,6 @@
 /**
  * Created by uxin on 2017/8/29.
  */
-import { connect } from 'react-redux';
 import { addNavigationHelpers,StackNavigator } from 'react-navigation';
 
 import Counter from './../components/Counter';
@@ -12,7 +11,3 @@ export const AppNavigator = StackNavigator({
     SecondPage:{ screen:Counter2 },
 });
 
-
-function mapStateToProps(state) {
-    // nav:state.
-}
