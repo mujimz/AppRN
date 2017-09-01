@@ -15,6 +15,9 @@ import { bindActionCreators } from 'redux';
 import * as actions from './../actions/operationCount';
 
 class Counter extends Component{
+    static navigationOptions = {
+        title: 'Home3',
+    }
     constructor(props){
         super(props);
     }

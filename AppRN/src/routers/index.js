@@ -4,13 +4,8 @@ import {
     addNavigationHelpers
 } from "react-navigation";
 
-import Home from '../components/Home';
 import Counter from './../components/Counter';
 import Counter2 from './../components/Counter2';
-// import Category from '../components/Category';
-// import Card from '../components/Card';
-// import UserCenter from '../components/UserCenter';
-// import NewsDetail from '../components/NewsDetail';
 
 // const TabbarNavigator = TabNavigator({
 //     Home: { screen: Home },
