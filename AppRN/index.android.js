@@ -10,4 +10,6 @@ import {
 } from 'react-native';
 import App from './src/index';
 
+global.__TYPE__ = "android";
+
 AppRegistry.registerComponent('AppRN', () => App);

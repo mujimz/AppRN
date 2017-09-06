@@ -11,9 +11,11 @@ import {
 
 import {connect} from 'react-redux';
 import { bindActionCreators } from 'redux';
+import VersionUpdate from './Version/version'
 
 
 import * as actions from './../actions/operationCount';
+
 
 class Counter extends Component{
     static navigationOptions = {
@@ -60,6 +62,7 @@ class Counter extends Component{
                     title="Increment async"
                     onPress={this.incrementAsync.bind(this)}
                 />
+                <VersionUpdate />
             </View>
         );
     }

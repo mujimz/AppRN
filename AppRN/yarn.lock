@@ -3242,6 +3242,10 @@ react-devtools-core@2.3.1:
     shell-quote "^1.6.1"
     ws "^2.0.3"
 
+react-native-device-info@^0.11.0:
+  version "0.11.0"
+  resolved "http://registry.npm.taobao.org/react-native-device-info/download/react-native-device-info-0.11.0.tgz#e96dd0e3f8a7d7e3022c1f441f51fa912fdc7444"
+
 react-native-dismiss-keyboard@1.0.0:
   version "1.0.0"
   resolved "http://registry.npm.taobao.org/react-native-dismiss-keyboard/download/react-native-dismiss-keyboard-1.0.0.tgz#32886242b3f2317e121f3aeb9b0a585e2b879b49"
@@ -3257,6 +3261,10 @@ react-native-drawer-layout@1.3.2:
   resolved "http://registry.npm.taobao.org/react-native-drawer-layout/download/react-native-drawer-layout-1.3.2.tgz#b9740d7663a1dc4f88a61b9c6d93d2d948ea426e"
   dependencies:
     react-native-dismiss-keyboard "1.0.0"
+
+react-native-simple-toast@^0.0.7:
+  version "0.0.7"
+  resolved "http://registry.npm.taobao.org/react-native-simple-toast/download/react-native-simple-toast-0.0.7.tgz#2ef51bdafd3e98df718f74fdd0bc0ce08608dff8"
 
 react-native-tab-view@^0.0.67:
   version "0.0.67"
