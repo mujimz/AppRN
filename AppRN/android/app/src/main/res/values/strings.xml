@@ -1,6 +1,6 @@
 <resources>
+    <string moduleConfig="true" name="reactNativeCodePush_androidDeploymentKey"></string>
     <!--<string name="app_name">AppRN</string>-->
-    <string moduleConfig="true" name="reactNativeCodePush_androidDeploymentKey">y</string>
     <string name="app_name">基础项目1.0</string>
     <string name="path">production</string>
     <string name="update_url">https://app.youxinpai.com/uxzhengba/android/#path#/version.json</string>

@@ -11,6 +11,7 @@ import android.util.Log;
 import android.widget.Toast;
 
 import com.facebook.react.ReactActivity;
+import com.microsoft.codepush.react.CodePush;
 
 import com.apprn.entity.UpdateInfo;
 import com.apprn.service.Update;
