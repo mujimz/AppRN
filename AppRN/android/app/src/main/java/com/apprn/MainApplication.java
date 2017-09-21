@@ -32,10 +32,16 @@ public class MainApplication extends Application implements ReactApplication {
 
     @Override
     protected List<ReactPackage> getPackages() {
+      boolean isDev=getResources().getBoolean(R.bool.isDev);
+      String hotKey="";
+      String hotUri="";
+      hotKey=isDev? getResources().getString(R.string.hot_key_test):getResources().getString(R.string.hot_key);
+      hotUri=isDev? getResources().getString(R.string.hot_update_uri_test):getResources().getString(R.string.hot_update_uri);
       return Arrays.<ReactPackage>asList(
           new MainReactPackage(),
           new RNDeviceInfo(),
-          new CodePush(BuildConfig.CODEPUSH_KEY, MainApplication.this, BuildConfig.DEBUG)
+          new CodePush(hotKey, MainApplication.this, BuildConfig.DEBUG)
+//          new CodePush(BuildConfig.CODEPUSH_KEY, MainApplication.this, BuildConfig.DEBUG)
       );
     }
   };

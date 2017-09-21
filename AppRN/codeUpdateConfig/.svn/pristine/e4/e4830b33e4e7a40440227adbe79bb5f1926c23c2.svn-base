@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1">
+  <title>易诚拍</title>
+</head>
+<style>
+    body{
+        background-color: '#efefef';
+        padding:10%;
+        
+    }
+    img{
+      width: 100%;
+      margin-top:30%
+    }
+  div{
+      display: block;
+      background:#c90028;
+      width: 100%;
+      height:40px;
+      color:#ffffff;
+     border-radius: 6px;
+      line-height: 40px;
+        margin-top: 20%
+    }
+    a{
+      text-decoration: none;
+     text-align: center;
+   
+    }
+</style>
+<body>
+  <img src="login-logo.png"/>
+    <a  id ="main" href= 'itms-services://?action=download-manifest&url=https://app.youxinpai.com/richan/ceshi/ios/buy/buyer.plist'>
+       <div>点击更新易诚拍</div>
+    </a>
+</body>
+<script>
+window.onload = function(){
+      var ele  = document.getElementById("main")
+      ele.addEventListener("click", function() {
+        ele.innerHTML ='<div>点击确定安装 请关闭此窗口</div>'
+       // window.location.href = 'itms-services://?action=download-manifest&url=https://app.youxinpai.com/richan/ceshi/ios/buy/buyer.plist'
+     });
+}
+</script>
+</html>

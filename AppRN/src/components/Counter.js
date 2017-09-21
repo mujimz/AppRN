@@ -50,7 +50,7 @@ class Counter extends Component{
                     onPress={this.onIncrement.bind(this)}
                 />
                 <Button
-                    title="003"
+                    title="020"
                     onPress={this.onDecrement.bind(this)}
                 />
                 <Text>Clicked:{value} times</Text>

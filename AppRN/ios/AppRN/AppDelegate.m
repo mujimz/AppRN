@@ -8,8 +8,8 @@
  */
 
 #import "AppDelegate.h"
-#import <CodePush/CodePush.h>
-
+//#import <CodePush/CodePush.h>
+#import "CodePush.h"
 #import <React/RCTBundleURLProvider.h>
 #import <React/RCTRootView.h>
 //#import "RCTSplashScreen.h"
@@ -19,7 +19,7 @@
 {
   NSString   *updateUrl;
   id _data;
-  NSString  *_path;
+NSString  *_path;
   NSString *_url;
 }
 
@@ -32,7 +32,10 @@
 #ifdef DEBUG
   
 #ifdef DEBUG
-    jsCodeLocation = [[RCTBundleURLProvider sharedSettings] jsBundleURLForBundleRoot:@"index.ios" fallbackResource:nil];
+//    jsCodeLocation = [[RCTBundleURLProvider sharedSettings] jsBundleURLForBundleRoot:@"index.ios" fallbackResource:nil];
+//    jsCodeLocation = [NSURL URLWithString:@"http://localhost:8081/index.ios.bundle?    platform=ios&dev=true"];
+//  jsCodeLocation = [[RCTBundleURLProvidersharedSettings]jsBundleURLForBundleRoot:@"index.ios"fallbackResource:nil];
+  jsCodeLocation = [[RCTBundleURLProvider sharedSettings] jsBundleURLForBundleRoot:@"index.ios" fallbackResource:nil];
 #else
     jsCodeLocation = [CodePush bundleURL];
 #endif

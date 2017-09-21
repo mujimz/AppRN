@@ -1,0 +1,31 @@
+{
+    "code": 1,
+    "ios": {
+        "isUpdate": true,
+        "platform": "ios",
+        "version": "1.0.0",
+        "isShowDialog": true,
+        "updateDialog": {
+            "title": "更新提示",
+            "mandatoryContinueButtonLabel": "立即更新",
+            "mandatoryUpdateMessage": "有新版本了，请您及时更新",
+            "optionalIgnoreButtonLabel": "稍后",
+            "optionalInstallButtonLabel": "立即更新",
+            "optionalUpdateMessage": "有新版本了，请您及时更新"
+        }
+    },
+    "android": {
+        "isUpdate": true,
+        "platform": "android",
+        "version": "1.0.0",
+        "isShowDialog": true,
+        "updateDialog": {
+            "title": "更新提示",
+            "mandatoryContinueButtonLabel": "立即更新",
+            "mandatoryUpdateMessage": "有新版本了，请您及时更新",
+            "optionalIgnoreButtonLabel": "稍后",
+            "optionalInstallButtonLabel": "立即更新",
+            "optionalUpdateMessage": "有新版本了，请您及时更新"
+        }
+    }
+}

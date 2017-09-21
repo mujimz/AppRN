@@ -1,0 +1,10 @@
+{
+    "version": "1.0.0",
+    "versionCode":1,
+    "des": "1、修复若干问题",
+    "isForce": true,
+    "appUrl": "https://img.youxinpai.com/codepushApp/DisposalCenter/update/ios/#path#/manifest.plist",
+    "dateTime": "20170906",
+    "updateTime": "2017-09-06 00:00",
+    "other": "ios"
+}

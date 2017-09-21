@@ -14,7 +14,8 @@ export default {
         position: 'http://10.70.14.42:8034/position.html',
         rule:'http://10.70.14.42:8034/rules.html',
         positionTimer: 180000,
-        timeInterval:8000
+        timeInterval:8000,
+        codepushUrl:"https://img.youxinpai.com/codepushApp/DisposalCenter/test/index.json",
     },
     production: {
         server: 'https://league.youxinpai.com/',
@@ -25,6 +26,7 @@ export default {
         updateTag: "production",
         version: "https://app.youxinpai.com/uxzhengba/ios/production/version.json",
         positionTimer: 900000,
-        timeInterval:8000
+        timeInterval:8000,
+        codepushUrl:"https://img.youxinpai.com/codepushApp/DisposalCenter/production/index.json",
     },
 }
