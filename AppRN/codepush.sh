@@ -8,10 +8,10 @@ if [ $# -eq 0 ]
     then
     echo "默认操作 发布测试"
     echo "android 热更新正在发布。。。。。。。。。。。。。"
-    code-push release-react apprn-android android --m true
+    # code-push release-react apprn-android android --m true
     echo "android 热更新正在发布结束。。。。。。。。。。。。。"
     echo "ios 热更新正在发布。。。。。。。。。。。。。"
-    # code-push release-react apprn-ios ios --m true
+    code-push release-react apprn-ios ios --m true
     echo "ios 热更新正在发布结束。。。。。。。。。。。。。"
     echo "热更新发布结束。。。。。。。。。。。。。。。。。"  
 elif [ $# -eq 1 ]
@@ -21,10 +21,10 @@ elif [ $# -eq 1 ]
         then
         echo '更新到正式'
         echo "android 热更新正在发布。。。。。。。。。。。。。"
-        #code-push release-react DisposalCenter-android android -d Production --m true
+        #code-push release-react apprn-android android -d Production --m true
         echo "android 热更新正在发布结束。。。。。。。。。。。。。"
         echo "ios 热更新正在发布。。。。。。。。。。。。。"
-        #code-push release-react DisposalCenter-ios ios -d Production --m true
+        #code-push release-react apprn-ios ios -d Production --m true
         echo "ios 热更新正在发布结束。。。。。。。。。。。。。"
         echo "热更新发布到正式结束。。。。。。。。。。。。。。。。。" 
     elif [ $1 == "key" ]

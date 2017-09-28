@@ -75,6 +75,13 @@ export default class CodePushApp extends Component {
 
   /** Update is downloaded silently, and applied on restart (recommended) */
     sync() {
+      //   CodePush.sync(
+      //     {
+      //       updateDialog: true,
+      //       installMode: CodePush.InstallMode.IMMEDIATE
+      //     },
+      //     this.codePushStatusDidChange.bind(this),
+      // );
         CodePush.sync(
         {},
         this.codePushStatusDidChange.bind(this),
@@ -123,7 +130,7 @@ export default class CodePushApp extends Component {
     return (
       <View style={styles.container}>
         <Text style={styles.welcome}>
-          Welcome to CodePush!
+          Welcome to CodePush!6
         </Text>
         <TouchableOpacity onPress={this.sync.bind(this)}>
           <Text style={styles.syncButton}>Press for background sync</Text>

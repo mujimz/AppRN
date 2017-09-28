@@ -2,6 +2,8 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>CodePushServerURL</key>
+	<string>http://10.70.68.47:3000/</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleDisplayName</key>
@@ -23,7 +25,7 @@
 	<key>CFBundleVersion</key>
 	<string>100</string>
 	<key>CodePushDeploymentKey</key>
-	<string> $(CODEPUSH_KEY)</string>
+	<string>p2BhlDR22YMOfznkErIinPgg41KD4ksvOXqog</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>NSAppTransportSecurity</key>
