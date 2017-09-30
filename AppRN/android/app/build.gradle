@@ -129,16 +129,26 @@ android {
             proguardFiles getDefaultProguardFile("proguard-android.txt"), "proguard-rules.pro"
             signingConfig signingConfigs.release
 
-            buildConfigField ("String", "CODEPUSH_KEY", '"'+properties.getProperty("code_push_key_production")+'"')
+            buildConfigField "String", "CODEPUSH_KEY", '"'+properties.getProperty("code_push_key_production")+'"'
+            buildConfigField "String", "CODEPUSHSERVER_URL", '"'+properties.getProperty("code_push_key_url")+'"'
+//            buildConfigField ("String", "CODEPUSH_KEY", '"'+properties.getProperty("code_push_key_production")+'"')
         }
         debug {
             // CodePush updates should not be tested in Debug mode
             buildConfigField "boolean", "LOG_DEBUG", "true"
+//            buildConfigField "String", "CODEPUSH_KEY", '"'+properties.getProperty("code_push_key_staging")+'"'
             buildConfigField "String", "CODEPUSH_KEY", '"'+properties.getProperty("code_push_key_staging")+'"'
+            buildConfigField "String", "CODEPUSHSERVER_URL", '"'+properties.getProperty("code_push_key_url")+'"'
+            signingConfig signingConfigs.debug
         }
 
         releaseStaging {
-            buildConfigField ("String", "CODEPUSH_KEY", '"'+properties.getProperty("code_push_key_staging")+'"')
+            minifyEnabled enableProguardInReleaseBuilds
+            proguardFiles getDefaultProguardFile("proguard-android.txt"), "proguard-rules.pro"
+            signingConfig signingConfigs.release
+
+            buildConfigField "String", "CODEPUSH_KEY", '"'+properties.getProperty("code_push_key_staging")+'"'
+            buildConfigField "String", "CODEPUSHSERVER_URL", '"'+properties.getProperty("code_push_key_url")+'"'
         }
     }
     // applicationVariants are e.g. debug, release

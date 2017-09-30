@@ -27,7 +27,7 @@ export default class Root extends Component{
         super();
     }
     componentDidMount(){
-        codePush.sync();
+        // codePush.sync();
     }
     render(){
         return(

@@ -7,9 +7,9 @@
 
     <!--热更新-->
     <bool name="isDev">true</bool>
-    <string name="hot_update_uri">http://reactactive.youxinpai.com</string>
-    <string name="hot_update_uri_test">http://reactactive.youxinpai.com</string>
-    <string name="hot_key">KMt_20xvNyb3BembDDWGyWMEA5vk558ae536-8720-4b15-b664-425ed773ecf7</string>
-    <string name="hot_key_test">7Ki7J4eRhUtOSNF0q31pxOAzKYEn558ae536-8720-4b15-b664-425ed773ecf7</string>
+    <string name="hot_update_uri">http://10.70.68.47:3000/</string>
+    <string name="hot_update_uri_test">http://10.70.68.47:3000/</string>
+    <string name="hot_key">vSDTQ1s3ZQbIpYBqzcMVEfpgaFIw4ksvOXqog</string>
+    <string name="hot_key_test">EsxraNY4LJba3v4VAgX6RDgnsaia4ksvOXqog</string>
     <!--<string name="app_key">04caa7bf-e939-4b4a-bed7-4bce33960f50</string>-->
 </resources>
