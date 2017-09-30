@@ -42,7 +42,8 @@ public class MainApplication extends Application implements ReactApplication {
           new RNDeviceInfo(),
 //          new CodePush("EsxraNY4LJba3v4VAgX6RDgnsaia4ksvOXqog", MainApplication.this, BuildConfig.DEBUG,"http://10.70.68.47:3000/")
 //          new CodePush(BuildConfig.CODEPUSH_KEY, MainApplication.this, BuildConfig.DEBUG)
-            new CodePush(BuildConfig.CODEPUSH_KEY, getApplicationContext(), BuildConfig.DEBUG,BuildConfig.CODEPUSHSERVER_URL)
+//            new CodePush(BuildConfig.CODEPUSH_KEY, getApplicationContext(), BuildConfig.DEBUG,BuildConfig.CODEPUSHSERVER_URL)
+            new CodePush(BuildConfig.CODEPUSH_KEY, MainApplication.this, BuildConfig.DEBUG,BuildConfig.CODEPUSHSERVER_URL)
       );
     }
   };
